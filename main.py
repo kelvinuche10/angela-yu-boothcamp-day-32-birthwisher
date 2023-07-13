@@ -2,8 +2,8 @@ import smtplib
 from datetime import datetime
 import random
 
-password = 'fezrcyvsvdrxoklt'
-my_email = 'amkelvinuche@gmail.com'
+password = 'app_password'
+my_email = 'senders_email'
 
 day = datetime.now().weekday()
 if day == 1:
